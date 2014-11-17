@@ -1,0 +1,5 @@
+			.box {position: relative;margin: 35px 35px 5px 0;width: 2em; height: 2em;background: dimgrey;float:left}
+			.box:hover {opacity:0.5}
+			.box:before, .box:after {position: absolute;transform-origin: bottom right;content: '';}
+			.box:before {top: 0; right: 100%; bottom: 0;width: 1em;background: darkgrey;transform: skewY(45deg);}
+			.box:after {right: 0; bottom: 100%; left: 0;height: 1em;background: silver;transform: skewX(45deg);}
